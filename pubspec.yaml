@@ -1,0 +1,209 @@
+name: kitaab
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 2.0.8+29
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependency_overrides:
+  url_launcher_ios: ^6.3.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #infrastructure
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.3
+  freezed: ^2.4.1
+  built_value: ^8.1.2
+  provider: ^6.0.1
+  dartz: ^0.10.0
+  chopper: ^8.0.1+1
+  permission_handler: ^11.0.0
+  logger: ^2.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.0.0
+  built_collection: ^5.1.1
+  freezed_annotation: ^2.1.0
+  mask_text_input_formatter: ^2.9.0
+  dio: ^5.4.0
+  http_parser: ^4.0.2
+  http: ^1.2.0
+  pretty_chopper_logger: ^1.0.9
+  flutter_local_notifications: ^17.2.2
+  web_socket_channel: any
+  sentry_flutter: ^8.7.0
+  share_plus: any
+  open_filex: ^4.5.0
+  html: ^0.15.4
+  flutter_widget_from_html: ^0.15.1
+  connectivity_plus: ^6.0.5
+  app_links: ^6.3.2
+  upgrader: ^11.2.0
+
+  #ui
+  flutter_screenutil: ^5.9.0
+  easy_localization: ^3.0.0
+  progress_indicators: ^1.0.0
+  animate_do: ^3.1.2
+  flutter_stepindicator: ^0.1.7
+  lottie: ^3.1.2
+
+  # flutter_easyloading: ^3.0.0
+  flutter_svg: ^2.0.7
+  info_popup: ^4.3.1
+  touchable: ^1.0.2
+  table_calendar: ^3.0.6
+  intl: any
+  dotted_line: ^3.1.0
+  pull_to_refresh: ^2.0.0
+  package_info_plus: any
+  badges: ^3.1.0
+  fluttertoast: ^8.1.2
+  logging: ^1.1.0
+  url_launcher: ^6.1.7
+  sms_autofill: ^2.4.0
+  pin_input_text_field: ^4.5.2
+  carousel_slider: ^5.0.0
+  dots_indicator: ^3.0.0
+  flutter_layout_grid: ^2.0.1
+  shimmer: ^3.0.0
+  flutter_multi_formatter: ^2.10.3
+  easy_refresh: ^3.3.1
+  location: ^7.0.0
+  flutter_timezone: ^3.0.1
+  timezone: ^0.9.1
+  flutter_native_splash: ^2.4.1
+  dropdown_button2: ^2.3.9
+  flutter_smart_dialog: ^4.9.6
+  device_info_plus: ^10.1.2
+  flutter_animate: ^4.4.1
+  skeletonizer: ^1.0.1
+  auto_size_text: ^3.0.0
+  sticky_headers: ^0.3.0+2
+  animated_flip_counter: ^0.3.3
+  gradient_borders: ^1.0.0
+  flutter_svg_provider: ^1.0.7
+  toggle_switch: ^2.3.0
+  animated_text_kit: ^4.2.2
+  sliding_up_panel2: ^3.3.0+1
+  webview_flutter: ^4.8.0
+  animations: ^2.0.11
+  dotted_border: ^2.1.0
+  reorderable_grid_view: ^2.2.8
+  fluid_dialog: ^2.0.0
+  flutter_spinkit: ^5.2.1
+  flutter_xlider: ^3.5.0
+
+  #image
+  image: ^4.0.17
+  cached_network_image: ^3.2.3
+  path: ^1.8.1
+  path_provider: ^2.0.10
+  image_cropper: ^8.0.2
+  photo_manager_image_provider: 2.1.0
+  photo_manager: ^3.5.0
+  extended_image: ^8.1.1
+  video_player: ^2.8.2
+  camera: ^0.11.0+2
+  sensors_plus: ^6.0.1
+  camera_platform_interface: ^2.7.1
+  camera_android_camerax: ^0.6.8+3
+  mime: ^1.0.5
+  formz: ^0.7.0
+  photo_view: ^0.15.0
+  image_picker: ^1.1.2
+  heif_converter: ^1.0.0
+
+  #map
+  animated_visibility: ^0.0.4
+  custom_sliding_segmented_control: ^1.8.1
+
+
+  # firebase
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.1.0
+  flutter_app_badge: ^2.0.2
+  animated_toggle_switch: ^0.8.2
+  open_mail_app: ^0.4.5
+  firebase_analytics: ^11.2.1
+  syncfusion_flutter_gauges: ^26.2.10
+  percent_indicator: ^4.2.3
+  barcode: ^2.2.8
+  readmore: ^3.0.0
+
+  # firebase_dynamic_links: ^5.0.15
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner:
+  chopper_generator:
+  built_value_generator:
+  flutter_launcher_icons:
+  change_app_package_name: ^1.1.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_launcher.png"
+  min_sdk_android: 21
+  flavor:
+    dev:
+      image_path: "assets/images/logo_launcher_dev.png"
+    prod:
+      image_path: "assets/images/logo_launcher.png"
+    beta:
+      image_path: "assets/images/logo_launcher_beta.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/translation/
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+    - assets/fonts/
+    - assets/icons/car/
+
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NunitoSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+          weight: 400
+
+flutter_native_splash:
+  info_plist_files:
+    - 'ios/Runner/Info-prod.plist'
+    - 'ios/Runner/Info-beta.plist'
+    - 'ios/Runner/Info-dev.plist'
+  color: "#CE2F2B"
+  color_dark: "#CE2F2B"
+  image: assets/images/native_splash.png
+  android_12:
+    image: assets/images/native_splash_12.png
+    icon_background_color: "#CE2F2B"
+    image_dark: assets/images/native_splash_12.png
+    icon_background_color_dark: "#CE2F2B"
+
+  android: true
+  ios: true
